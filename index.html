@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="card">
+    <div class="card__result">
+      <h1 class="result__h1">Your Result</h1>
+      <div class="result__circle">
+        <p class="result__value">76</p>
+        <p class="result__percent">of 100</p>
+      </div>
+      <h2 class="result__adjective">Great</h2>
+      <p class="result__description">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="card__summary">
+      <h2 class="summary__title">Summary</h2>
+      <div class="summary__main-container">
+        <div class="summary__flex summary__flex--red">
+          <div class="summary__container">
+            <img src="images/icon-reaction.svg" alt="A red lighting volt illustration">
+            <p class="summary__reaction">Reaction</p>
+          </div>
+          <p class="summary__score"><span class="summary__value">80</span> / 100</p>
+        </div>
+        <div class="summary__flex summary__flex--yellow">
+          <div class="summary__container">
+            <img src="images/icon-memory.svg" alt="A yellow brain illustration">
+            <p class="summary__memory">Memory</p>
+          </div>
+          <p class="summary__score"><span class="summary__value">92</span> / 100</p>
+        </div>
+        <div class="summary__flex summary__flex--green">
+          <div class="summary__container">
+            <img src="images/icon-verbal.svg" alt="A teal talk illustration">
+            <p class="summary__verbal">Verbal</p>
+          </div>
+          <p class="summary__score"><span class="summary__value">61</span> / 100</p>
+        </div>
+        <div class="summary__flex summary__flex--blue">
+          <div class="summary__container">
+            <img src="images/icon-visual.svg" alt="A violet eye illustration">
+            <p class="summary__visual">Visual</p>
+          </div>
+          <p class="summary__score"><span class="summary__value">72</span> / 100</p>
+        </div>
+      </div>     
+      <a href="#" class="summary__link">Continue</a>
+    </div>
+  </main>
+</body>
+</html>
