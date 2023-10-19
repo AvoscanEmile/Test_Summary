@@ -2,10 +2,13 @@
 Frontend Mentor is a website where front-end developers get a design and are asked to make it into a page to practice their skills. This repository is my approach for the following design: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
 
 If you want to see this repository live you can do it here: https://avoscanemile.github.io/Test_Summary
+
+The website generates a new score every time you press continue or reload the page. 
 # Table of Contents
   - [HTML Classes and Styling](#html-classes-and-styling)
   - [Layout Tools and CSS Functions used](#layout-tools-and-css-functions-used)
   - [Media Queries](#media-queries)
+  - 
 ## HTML Classes and Styling
 
 ### `card__result`
@@ -96,3 +99,6 @@ In this project, various CSS functions are employed to achieve specific styling 
 - Adapts spacing and alignment of the `summary__title` for better readability.
 - Adjusts the margin of the "Continue" link for an improved user interface.
 
+## JavaScript 
+
+The JavaScript code in this project is well explained and concise. Please refer to the script.js file for more info about it. There's also a little secret inside it. 
