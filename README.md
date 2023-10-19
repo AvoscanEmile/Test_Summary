@@ -1,4 +1,7 @@
 # Test_Summary
+Frontend Mentor is a website where front-end developers get a design and are asked to make it into a page to practice their skills. This repository is my approach for the following design: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
+
+If you want to see this repository live you can do it here: https://avoscanemile.github.io/Test_Summary
 # Table of Contents
   - [HTML Classes and Styling](#html-classes-and-styling)
   - [Layout Tools and CSS Functions used](#layout-tools-and-css-functions-used)
