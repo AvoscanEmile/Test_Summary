@@ -1,4 +1,8 @@
 # Test_Summary
+# Table of Contents
+  - [HTML Classes and Styling](#html-classes-and-styling)
+  - [Layout Tools and CSS Functions used](#layout-tools-and-css-functions-used)
+  - [Media Queries](#media-queries)
 ## HTML Classes and Styling
 
 ### `card__result`
